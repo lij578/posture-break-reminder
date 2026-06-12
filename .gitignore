@@ -1,0 +1,24 @@
+# macOS metadata
+.DS_Store
+
+# Build outputs
+/build/
+/dist/
+*.app
+*.dmg
+
+# Local runtime data. The app writes real reminder history outside this repo,
+# but keep these ignored in case someone copies data into the project folder.
+/PostureBreakReminder/
+/Application Support/
+records.json
+images/
+.in-progress/
+
+# Editor and local environment files
+.vscode/
+.idea/
+*.swp
+*.tmp
+.env
+.env.*
